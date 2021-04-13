@@ -70,7 +70,7 @@ describe("form", () => {
   });
 });
 
-describe("form - smart test", () => {
+xdescribe("form - smart test", () => {
   it.each([
     ["Esteva", "", "submitted"],
     ["D'angelo", "", "submitted"],
@@ -93,7 +93,7 @@ describe("form - smart test", () => {
   );
 });
 
-describe("fast check form", () => {
+xdescribe("fast check form", () => {
   it("should submit last name", async () => {
     fc.assert(
       fc
